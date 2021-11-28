@@ -25,7 +25,7 @@
         <post-list
             :posts="sortedAndSearchedPosts"
             @remove="removePost"
-            v-if="!isPostsLoading"
+            v-if="!isPostsLoading" 
         />
         <div
             v-else
